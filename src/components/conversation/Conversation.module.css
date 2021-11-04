@@ -1,5 +1,7 @@
 .container {
-	/* background-color: white; */
-  	background-color: var(--color-primary-s400);
 }
 
+.list {
+	padding-left: 0;
+	list-style: none;
+}

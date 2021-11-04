@@ -1,8 +1,9 @@
 import { FC } from 'react'
 import { useMessages } from '../../hooks/useMessages'
 import { useUsers } from '../../hooks/useUsers'
-import { Avatar } from '../avatar/Avatar'
+import { UserMessage } from './UserMessage'
 import styles from './Conversation.module.css'
+import { loggedUserId } from '../../pages/_app'
 
 
 export interface IConversation {
@@ -37,20 +38,17 @@ export const Conversation: FC<IConversation> = ({
 
 	return (
 		<div className={styles.container}>
-			<ul>
+			<ul className={styles.list}>
 				{messages.map(message => {
 					const author = users.filter(user => user.id === message.authorId)[0]
 
 					return (
 						<li key={message.id}>
-							<div>
-								<div>
-									<Avatar userName={author.nickname} />
-								</div>
-								<div>
-									{message.body}
-								</div>
-							</div>
+							<UserMessage
+								authorName={author.nickname}
+								isFromUser={author.id === loggedUserId}
+								message={message.body}
+							/>
 						</li>
 					)
 				})}
