@@ -5,5 +5,8 @@ module.exports = {
   },
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  images: {
+    domains: ['eu.ui-avatars.com']
   }
 }

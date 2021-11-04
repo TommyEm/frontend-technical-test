@@ -1,0 +1,17 @@
+.container {
+	background-color: white;
+}
+
+.list {
+	padding-left: 0;
+	list-style: none;
+}
+
+.listItem {
+	display: flex;
+}
+
+.avatar {
+	overflow: hidden;
+	border-radius: 50%;
+}

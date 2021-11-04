@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '../assets/lbc-logo.webp'
 import styles from '../styles/Home.module.css'
-import { User } from '../types/user';
-import { Conversation } from '../types/conversation';
+import { User } from '../types/user'
+import { Conversation } from '../types/conversation'
 
 const Home: FC = () => {
   const [users, setUsers] = useState<User[]>([])
@@ -34,6 +34,8 @@ const Home: FC = () => {
           return [...acc, ...curr]
         }, [])
         setConversations(data)
+        console.log(data);
+
         return data
       })
     }
