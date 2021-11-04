@@ -1,7 +1,7 @@
 import { FC } from 'react'
+import Link from 'next/link'
 import dayjs from 'dayjs'
 import { Conversation } from '../../../types/conversation'
-import { User } from '../../../types/user'
 import { Avatar } from '../../avatar/Avatar'
 import styles from './ConversationsList.module.css'
 
@@ -19,13 +19,20 @@ export const ConversationsListItem: FC<IConversationsListItem> = ({
 
 	return (
 		<li className={styles.listItem}>
-			<div className={styles.avatar}>
-				<Avatar userName={userName} />
-			</div>
-			<div>
-				<div>{userName}</div>
-				<div>{lastMessageDate}</div>
-			</div>
+			<Link
+				href={`/conversation/${conversationData.id}`}
+				passHref
+			>
+				<a>
+					<span className={styles.avatar}>
+						<Avatar userName={userName} />
+					</span>
+					<span>
+						<span>{userName}</span>
+						<span>{lastMessageDate}</span>
+					</span>
+				</a>
+			</Link>
 		</li>
 	)
 }

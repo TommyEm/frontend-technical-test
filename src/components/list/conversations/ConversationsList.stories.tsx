@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react'
 import { ConversationsList, IConversationsList } from './ConversationsList'
 
 export default {
-	title: 'Components/List/Conversations',
+	title: 'Components/List/Conversations List',
 	component: ConversationsList,
 } as Meta
 
@@ -11,7 +11,7 @@ const Template: Story<IConversationsList> = args => <ConversationsList {...args}
 
 export const Default = Template.bind({})
 Default.args = {
-	conversationsData: [
+	conversationData: [
 		{
 			"id": 1,
 			"recipientId": 2,
@@ -36,28 +36,5 @@ Default.args = {
 			"senderNickname": "Elodie",
 			"lastMessageTimestamp": 1625648667
 		},
-	],
-	currentUserId: 1,
-	usersData: [
-		{
-			"id": 1,
-			"nickname": "Thibaut",
-			"token": "xxxx"
-		},
-		{
-			"id": 2,
-			"nickname": "Jeremie",
-			"token": "xxxx"
-		},
-		{
-			"id": 3,
-			"nickname": "Patrick",
-			"token": "xxxx"
-		},
-		{
-			"id": 4,
-			"nickname": "Elodie",
-			"token": "xxxx"
-		}
 	],
 }

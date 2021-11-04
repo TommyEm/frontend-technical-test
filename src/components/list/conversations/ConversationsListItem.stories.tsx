@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react'
 import { ConversationsListItem, IConversationsListItem } from './ConversationsListItem'
 
 export default {
-	title: 'Components/List/Conversation Item',
+	title: 'Components/List/Conversation List Item',
 	component: ConversationsListItem,
 } as Meta
 
