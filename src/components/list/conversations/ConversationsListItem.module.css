@@ -1,0 +1,32 @@
+.container {
+	background-color: var(--color-neutral-s0);
+	border-bottom: 1px solid var(--color-neutral-s100);
+	list-style: none;
+}
+
+.link {
+	display: flex;
+	width: 100%;
+	padding: var(--size-space-s3) var(--size-space-s2);
+}
+
+.avatar {
+	display: inline-block;
+}
+
+.infos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: var(--size-space-s3);
+	color: var(--color-neutral-s800)
+}
+
+.username {
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+.date {
+	font-size: var(--size-font-s1);
+}

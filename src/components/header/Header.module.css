@@ -1,3 +1,4 @@
 .container {
-	padding: 10px;
+	padding: var(--size-space-s4);
+	border-bottom: 1px solid var(--color-neutral-s100);
 }

@@ -2,6 +2,7 @@ import { FC } from 'react'
 
 import { loggedUserId } from './_app'
 import { Header } from '../components/header/Header'
+import { Title } from '../components/title/Title'
 import { ConversationsList } from '../components/list/conversations/ConversationsList'
 import { useConversations } from '../hooks/useConversations'
 
@@ -35,6 +36,7 @@ const AppLayout: FC = () => {
 				<Header />
 			</div>
 			<main className={styles.main}>
+				<Title>Conversations</Title>
 				<ConversationsList
 					conversationData={conversations}
 				/>

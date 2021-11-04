@@ -19,9 +19,5 @@ Default.args = {
 		"senderNickname": "Thibaut",
 		"lastMessageTimestamp": 1625637849
 	},
-	userData: {
-		"id": 2,
-		"nickname": "Jeremie",
-		"token": "xxxx"
-	},
+	userName: 'John',
 }

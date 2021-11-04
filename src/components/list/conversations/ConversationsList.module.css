@@ -1,12 +1,8 @@
 .container {
-	background-color: white;
+	background-color: var(--color-neutral-s0);
 }
 
 .list {
 	padding-left: 0;
 	list-style: none;
-}
-
-.listItem {
-	display: flex;
 }
