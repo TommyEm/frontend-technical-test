@@ -1,0 +1,10 @@
+.container {
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.image {
+	display: block;
+}
+

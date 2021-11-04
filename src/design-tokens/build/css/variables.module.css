@@ -1,0 +1,62 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 04 Nov 2021 20:06:44 GMT
+ */
+
+:root {
+  --color-primary-s0: #d3ecf2;
+  --color-primary-s50: #98e0f1;
+  --color-primary-s100: #65d3ec;
+  --color-primary-s200: #40c5e3;
+  --color-primary-s300: #26b5d5;
+  --color-primary-s400: #15a2c2;
+  --color-primary-s500: #0b8daa;
+  --color-primary-s600: #05768f;
+  --color-primary-s700: #015e73;
+  --color-primary-s800: #004756;
+  --color-primary-s900: #00303b;
+  --color-neutral-s0: #ffffff;
+  --color-neutral-s50: #dddee6;
+  --color-neutral-s100: #bfc0cc;
+  --color-neutral-s200: #a3a4b3;
+  --color-neutral-s300: #898b99;
+  --color-neutral-s400: #717280;
+  --color-neutral-s500: #5a5b66;
+  --color-neutral-s600: #43444d;
+  --color-neutral-s700: #2c2d33;
+  --color-neutral-s800: #16171a;
+  --color-neutral-s900: #000000;
+  --color-font-base: #ffffff;
+  --color-font-secondary: #ffffff;
+  --color-font-tertiary: #ffffff;
+  --size-font-s1: 0.75rem;
+  --size-font-s2: 1rem;
+  --size-font-s3: 1.25rem;
+  --size-font-s4: 1.5rem;
+  --size-font-s5: 1.75rem;
+  --size-font-s6: 2rem;
+  --size-font-s7: 2.25rem;
+  --size-font-s8: 2.5rem;
+  --size-font-base: 1rem; /* the base size of the font */
+  --size-font-lineheight-s1: 1rem;
+  --size-font-lineheight-s2: 1rem;
+  --size-font-lineheight-s3: 1rem;
+  --size-font-lineheight-s4: 1.5rem;
+  --size-font-lineheight-s5: 2rem;
+  --size-font-lineheight-s6: 2rem;
+  --size-font-lineheight-s7: 2rem;
+  --size-font-lineheight-s8: 2rem;
+  --size-space-s0: 0rem;
+  --size-space-s1: 0.25rem;
+  --size-space-s2: 0.5rem;
+  --size-space-s3: 0.75rem;
+  --size-space-s4: 1rem;
+  --size-space-s5: 1.25rem;
+  --size-space-s6: 1.5rem;
+  --size-space-s7: 1.75rem;
+  --size-space-s8: 2rem;
+  --size-space-s9: 2.25rem;
+  --size-space-s10: 2.5rem;
+  --size-space-s11: 2.75rem;
+  --size-space-s12: 3rem;
+}

@@ -36,7 +36,7 @@ export const Conversation: FC<IConversation> = ({
 	}
 
 	return (
-		<div>
+		<div className={styles.container}>
 			<ul>
 				{messages.map(message => {
 					const author = users.filter(user => user.id === message.authorId)[0]

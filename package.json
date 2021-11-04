@@ -9,6 +9,7 @@
     "start-server": "json-server --watch src/server/db.json --routes src/server/routes.json --middlewares src/server/middleware/conversations.js --port 3005",
     "test": "jest",
     "lint": "next lint --no-error-on-unmatched-pattern",
+    "build-dt": "cd src/design-tokens && node build.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -45,6 +46,7 @@
     "jest": "^27.0.6",
     "json-server": "^0.16.3",
     "storybook-css-modules-preset": "^1.1.1",
+    "style-dictionary": "^3.0.3",
     "typescript": "^4.3.5"
   }
 }

@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import Image from 'next/image'
+import styles from './Avatar.module.css'
 
 
 export interface IAvatar {
@@ -8,11 +9,14 @@ export interface IAvatar {
 
 export const Avatar: FC<IAvatar> = ({ userName }) => {
 	return (
-		<Image
-			src={`https://eu.ui-avatars.com/api/?name=${userName}`}
-			width={48}
-			height={48}
-			alt={userName}
-		/>
+		<div className={styles.container}>
+			<Image
+				className={styles.image}
+				src={`https://eu.ui-avatars.com/api/?name=${userName}`}
+				width={48}
+				height={48}
+				alt={userName}
+			/>
+		</div>
 	)
 }

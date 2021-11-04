@@ -10,8 +10,3 @@
 .listItem {
 	display: flex;
 }
-
-.avatar {
-	overflow: hidden;
-	border-radius: 50%;
-}
