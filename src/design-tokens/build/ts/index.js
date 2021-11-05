@@ -1,55 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 Nov 2021 20:06:44 GMT
+ * Generated on Fri, 05 Nov 2021 11:24:50 GMT
  */
 
 module.exports = {
   "color": {
     "primary": {
-      "s0": {
-        "value": "#d3ecf2",
-        "filePath": "tokens/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#d3ecf2"
-        },
-        "name": "ColorPrimaryS0",
-        "attributes": {
-          "category": "color",
-          "type": "primary",
-          "item": "s0"
-        },
-        "path": [
-          "color",
-          "primary",
-          "s0"
-        ]
-      },
-      "s50": {
-        "value": "#98e0f1",
-        "filePath": "tokens/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#98e0f1"
-        },
-        "name": "ColorPrimaryS50",
-        "attributes": {
-          "category": "color",
-          "type": "primary",
-          "item": "s50"
-        },
-        "path": [
-          "color",
-          "primary",
-          "s50"
-        ]
-      },
       "s100": {
-        "value": "#65d3ec",
+        "value": "#d2f2fe",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#65d3ec"
+          "value": "#D2F2FE"
         },
         "name": "ColorPrimaryS100",
         "attributes": {
@@ -64,11 +26,11 @@ module.exports = {
         ]
       },
       "s200": {
-        "value": "#40c5e3",
+        "value": "#a6e1fe",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#40c5e3"
+          "value": "#A6E1FE"
         },
         "name": "ColorPrimaryS200",
         "attributes": {
@@ -83,11 +45,11 @@ module.exports = {
         ]
       },
       "s300": {
-        "value": "#26b5d5",
+        "value": "#7acbfd",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#26b5d5"
+          "value": "#7ACBFD"
         },
         "name": "ColorPrimaryS300",
         "attributes": {
@@ -102,11 +64,11 @@ module.exports = {
         ]
       },
       "s400": {
-        "value": "#15a2c2",
+        "value": "#58b5fb",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#15a2c2"
+          "value": "#58B5FB"
         },
         "name": "ColorPrimaryS400",
         "attributes": {
@@ -121,11 +83,11 @@ module.exports = {
         ]
       },
       "s500": {
-        "value": "#0b8daa",
+        "value": "#2292f9",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#0b8daa"
+          "value": "#2292F9"
         },
         "name": "ColorPrimaryS500",
         "attributes": {
@@ -140,11 +102,11 @@ module.exports = {
         ]
       },
       "s600": {
-        "value": "#05768f",
+        "value": "#1871d6",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#05768f"
+          "value": "#1871D6"
         },
         "name": "ColorPrimaryS600",
         "attributes": {
@@ -159,11 +121,11 @@ module.exports = {
         ]
       },
       "s700": {
-        "value": "#015e73",
+        "value": "#1154b3",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#015e73"
+          "value": "#1154B3"
         },
         "name": "ColorPrimaryS700",
         "attributes": {
@@ -178,11 +140,11 @@ module.exports = {
         ]
       },
       "s800": {
-        "value": "#004756",
+        "value": "#0a3b90",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#004756"
+          "value": "#0A3B90"
         },
         "name": "ColorPrimaryS800",
         "attributes": {
@@ -197,11 +159,11 @@ module.exports = {
         ]
       },
       "s900": {
-        "value": "#00303b",
+        "value": "#062977",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#00303b"
+          "value": "#062977"
         },
         "name": "ColorPrimaryS900",
         "attributes": {
@@ -222,7 +184,7 @@ module.exports = {
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#ffffff"
+          "value": "#FFFFFF"
         },
         "name": "ColorNeutralS0",
         "attributes": {
@@ -236,31 +198,12 @@ module.exports = {
           "s0"
         ]
       },
-      "s50": {
-        "value": "#dddee6",
-        "filePath": "tokens/color/base.json",
-        "isSource": true,
-        "original": {
-          "value": "#dddee6"
-        },
-        "name": "ColorNeutralS50",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "s50"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "s50"
-        ]
-      },
       "s100": {
-        "value": "#bfc0cc",
+        "value": "#f3f7f7",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#bfc0cc"
+          "value": "#F3F7F7"
         },
         "name": "ColorNeutralS100",
         "attributes": {
@@ -275,11 +218,11 @@ module.exports = {
         ]
       },
       "s200": {
-        "value": "#a3a4b3",
+        "value": "#e7eff0",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#a3a4b3"
+          "value": "#E7EFF0"
         },
         "name": "ColorNeutralS200",
         "attributes": {
@@ -294,11 +237,11 @@ module.exports = {
         ]
       },
       "s300": {
-        "value": "#898b99",
+        "value": "#c8d1d4",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#898b99"
+          "value": "#C8D1D4"
         },
         "name": "ColorNeutralS300",
         "attributes": {
@@ -313,11 +256,11 @@ module.exports = {
         ]
       },
       "s400": {
-        "value": "#717280",
+        "value": "#9ea6aa",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#717280"
+          "value": "#9EA6AA"
         },
         "name": "ColorNeutralS400",
         "attributes": {
@@ -332,11 +275,11 @@ module.exports = {
         ]
       },
       "s500": {
-        "value": "#5a5b66",
+        "value": "#676e72",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#5a5b66"
+          "value": "#676e72"
         },
         "name": "ColorNeutralS500",
         "attributes": {
@@ -351,11 +294,11 @@ module.exports = {
         ]
       },
       "s600": {
-        "value": "#43444d",
+        "value": "#4b5862",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#43444d"
+          "value": "#4B5862"
         },
         "name": "ColorNeutralS600",
         "attributes": {
@@ -370,11 +313,11 @@ module.exports = {
         ]
       },
       "s700": {
-        "value": "#2c2d33",
+        "value": "#334352",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#2c2d33"
+          "value": "#334352"
         },
         "name": "ColorNeutralS700",
         "attributes": {
@@ -389,11 +332,11 @@ module.exports = {
         ]
       },
       "s800": {
-        "value": "#16171a",
+        "value": "#202f42",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#16171a"
+          "value": "#202F42"
         },
         "name": "ColorNeutralS800",
         "attributes": {
@@ -408,11 +351,11 @@ module.exports = {
         ]
       },
       "s900": {
-        "value": "#000000",
+        "value": "#132136",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#000000"
+          "value": "#132136"
         },
         "name": "ColorNeutralS900",
         "attributes": {
@@ -429,11 +372,11 @@ module.exports = {
     },
     "font": {
       "base": {
-        "value": "#ffffff",
+        "value": "#f3f7f7",
         "filePath": "tokens/color/font.json",
         "isSource": true,
         "original": {
-          "value": "{color.neutral.s0.value}"
+          "value": "{color.neutral.s100.value}"
         },
         "name": "ColorFontBase",
         "attributes": {
@@ -448,11 +391,11 @@ module.exports = {
         ]
       },
       "secondary": {
-        "value": "#ffffff",
+        "value": "#f3f7f7",
         "filePath": "tokens/color/font.json",
         "isSource": true,
         "original": {
-          "value": "{color.neutral.s0.value}"
+          "value": "{color.neutral.s100.value}"
         },
         "name": "ColorFontSecondary",
         "attributes": {
@@ -467,11 +410,11 @@ module.exports = {
         ]
       },
       "tertiary": {
-        "value": "#ffffff",
+        "value": "#f3f7f7",
         "filePath": "tokens/color/font.json",
         "isSource": true,
         "original": {
-          "value": "{color.neutral.s0.value}"
+          "value": "{color.neutral.s100.value}"
         },
         "name": "ColorFontTertiary",
         "attributes": {

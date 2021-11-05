@@ -1,17 +1,17 @@
 import { FC } from 'react'
 import Link from 'next/link'
 import dayjs from 'dayjs'
-import { Conversation } from '../../../types/conversation'
+import { IConversation } from '../../../types/conversation'
 import { Avatar } from '../../avatar/Avatar'
 import styles from './ConversationsListItem.module.css'
 
 
-export interface IConversationsListItem {
-	conversationData: Conversation
+export interface IConversationsListItemProps {
+	conversationData: IConversation
 	userName: string
 }
 
-export const ConversationsListItem: FC<IConversationsListItem> = ({
+export const ConversationsListItem: FC<IConversationsListItemProps> = ({
 	conversationData,
 	userName,
 }) => {

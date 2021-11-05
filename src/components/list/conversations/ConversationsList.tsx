@@ -1,17 +1,16 @@
 import { FC } from 'react'
-import { Conversation } from '../../../types/conversation'
+import { IConversation } from '../../../types/conversation'
 import { loggedUserId } from '../../../pages/_app'
-// import { User } from '../../../types/user'
 import { ConversationsListItem } from './ConversationsListItem'
 import styles from './ConversationsList.module.css'
 import { useUsers } from '../../../hooks/useUsers'
 
 
-export interface IConversationsList {
-	conversationData: Conversation[]
+export interface IConversationsListProps {
+	conversationData: IConversation[]
 }
 
-export const ConversationsList: FC<IConversationsList> = ({
+export const ConversationsList: FC<IConversationsListProps> = ({
 	conversationData,
 }) => {
 	const {

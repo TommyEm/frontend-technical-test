@@ -7,39 +7,7 @@ import { User } from '../types/user'
 import { Conversation } from '../types/conversation'
 
 const Home: FC = () => {
-  const [users, setUsers] = useState<User[]>([])
-  const [conversations, setConversations] = useState<Conversation[]>([])
-
   const year = new Date().getFullYear()
-
-  useEffect(() => {
-    fetch('http://localhost:3005/users')
-      .then(res => res.json())
-      .then(usersData => {
-        setUsers(usersData)
-      })
-      .catch(err => console.log(err))
-  }, [])
-
-  useEffect(() => {
-    if (users) {
-      const convs = Promise.all(
-        users.map(user => {
-          return fetch(`http://localhost:3005/conversations/${user.id}`)
-            .then(res => res.json())
-            .catch(err => console.log(err))
-        })
-      ).then(res => {
-        const data = res.reduce((acc, curr) => {
-          return [...acc, ...curr]
-        }, [])
-        setConversations(data)
-        console.log(data);
-
-        return data
-      })
-    }
-  }, [users])
 
   return (
     <div className={styles.container}>

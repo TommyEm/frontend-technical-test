@@ -2,6 +2,12 @@
 }
 
 .list {
+	display: flex;
+	flex-direction: column;
 	padding-left: 0;
 	list-style: none;
+}
+
+.listItem + .listItem {
+	margin-top: var(--size-space-s4);
 }

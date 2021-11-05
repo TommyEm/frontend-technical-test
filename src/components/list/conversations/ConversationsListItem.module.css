@@ -1,6 +1,6 @@
 .container {
 	background-color: var(--color-neutral-s0);
-	border-bottom: 1px solid var(--color-neutral-s100);
+	border-bottom: 1px solid var(--color-neutral-s300);
 	list-style: none;
 }
 

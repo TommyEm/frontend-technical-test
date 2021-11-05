@@ -1,34 +1,31 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 Nov 2021 20:06:44 GMT
+ * Generated on Fri, 05 Nov 2021 11:24:50 GMT
  */
 
 :root {
-  --color-primary-s0: #d3ecf2;
-  --color-primary-s50: #98e0f1;
-  --color-primary-s100: #65d3ec;
-  --color-primary-s200: #40c5e3;
-  --color-primary-s300: #26b5d5;
-  --color-primary-s400: #15a2c2;
-  --color-primary-s500: #0b8daa;
-  --color-primary-s600: #05768f;
-  --color-primary-s700: #015e73;
-  --color-primary-s800: #004756;
-  --color-primary-s900: #00303b;
+  --color-primary-s100: #d2f2fe;
+  --color-primary-s200: #a6e1fe;
+  --color-primary-s300: #7acbfd;
+  --color-primary-s400: #58b5fb;
+  --color-primary-s500: #2292f9;
+  --color-primary-s600: #1871d6;
+  --color-primary-s700: #1154b3;
+  --color-primary-s800: #0a3b90;
+  --color-primary-s900: #062977;
   --color-neutral-s0: #ffffff;
-  --color-neutral-s50: #dddee6;
-  --color-neutral-s100: #bfc0cc;
-  --color-neutral-s200: #a3a4b3;
-  --color-neutral-s300: #898b99;
-  --color-neutral-s400: #717280;
-  --color-neutral-s500: #5a5b66;
-  --color-neutral-s600: #43444d;
-  --color-neutral-s700: #2c2d33;
-  --color-neutral-s800: #16171a;
-  --color-neutral-s900: #000000;
-  --color-font-base: #ffffff;
-  --color-font-secondary: #ffffff;
-  --color-font-tertiary: #ffffff;
+  --color-neutral-s100: #f3f7f7;
+  --color-neutral-s200: #e7eff0;
+  --color-neutral-s300: #c8d1d4;
+  --color-neutral-s400: #9ea6aa;
+  --color-neutral-s500: #676e72;
+  --color-neutral-s600: #4b5862;
+  --color-neutral-s700: #334352;
+  --color-neutral-s800: #202f42;
+  --color-neutral-s900: #132136;
+  --color-font-base: #f3f7f7;
+  --color-font-secondary: #f3f7f7;
+  --color-font-tertiary: #f3f7f7;
   --size-font-s1: 0.75rem;
   --size-font-s2: 1rem;
   --size-font-s3: 1.25rem;

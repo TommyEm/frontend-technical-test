@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { useMessages } from '../../hooks/useMessages'
 import { useUsers } from '../../hooks/useUsers'
-import { UserMessage } from './UserMessage'
+import { Message } from '../message/Message'
 import styles from './Conversation.module.css'
 import { loggedUserId } from '../../pages/_app'
 
@@ -41,12 +41,18 @@ export const Conversation: FC<IConversation> = ({
 			<ul className={styles.list}>
 				{messages.map(message => {
 					const author = users.filter(user => user.id === message.authorId)[0]
+					console.log(author.id);
+					console.log(author.id === loggedUserId);
+
 
 					return (
-						<li key={message.id}>
-							<UserMessage
+						<li
+							key={message.id}
+							className={styles.listItem}
+						>
+							<Message
 								authorName={author.nickname}
-								isFromUser={author.id === loggedUserId}
+								toUser={author.id === loggedUserId}
 								message={message.body}
 							/>
 						</li>

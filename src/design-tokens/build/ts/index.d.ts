@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 Nov 2021 20:06:44 GMT
+ * Generated on Fri, 05 Nov 2021 11:24:50 GMT
  */
 
 export default tokens;
@@ -24,8 +24,6 @@ declare interface DesignToken {
 declare const tokens: {
   "color": {
     "primary": {
-      "s0": DesignToken,
-      "s50": DesignToken,
       "s100": DesignToken,
       "s200": DesignToken,
       "s300": DesignToken,
@@ -38,7 +36,6 @@ declare const tokens: {
     },
     "neutral": {
       "s0": DesignToken,
-      "s50": DesignToken,
       "s100": DesignToken,
       "s200": DesignToken,
       "s300": DesignToken,
