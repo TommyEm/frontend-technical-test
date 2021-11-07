@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Image from 'next/image'
-import Logo from '../../assets/lbc-logo.webp'
+import Logo from '@/assets/lbc-logo.webp'
 import styles from './Header.module.css'
 
 

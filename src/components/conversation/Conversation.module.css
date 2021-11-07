@@ -11,3 +11,11 @@
 .listItem + .listItem {
 	margin-top: var(--size-space-s4);
 }
+
+.input {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: var(--size-space-s4)
+}

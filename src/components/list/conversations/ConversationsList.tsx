@@ -1,17 +1,17 @@
 import { FC } from 'react'
-import { IConversation } from '../../../types/conversation'
-import { loggedUserId } from '../../../pages/_app'
+
+import { IConversation } from '@/types/conversation'
+import { loggedUserId } from '@/pages/_app'
 import { ConversationsListItem } from './ConversationsListItem'
 import styles from './ConversationsList.module.css'
-import { useUsers } from '../../../hooks/useUsers'
+import { useUsers } from '@/hooks/useUsers'
+import { useConversations } from '@/hooks/useConversations'
 
 
 export interface IConversationsListProps {
-	conversationData: IConversation[]
 }
 
 export const ConversationsList: FC<IConversationsListProps> = ({
-	conversationData,
 }) => {
 	const {
 		data: users,
@@ -19,12 +19,18 @@ export const ConversationsList: FC<IConversationsListProps> = ({
 		isError,
 		isLoading,
 	} = useUsers()
+	const {
+		data: conversations,
+		error: conversationsError,
+		isError: isConversationsError,
+		isLoading: isConversationsLoading,
+	} = useConversations(loggedUserId)
 
-	if (isLoading) {
+	if (isLoading || isConversationsLoading) {
 		return <p>Loading...</p>
 	}
 
-	if (isError) {
+	if (isError || isConversationsError) {
 		return (
 			<>
 				<p>Something went wrong.</p>
@@ -36,7 +42,7 @@ export const ConversationsList: FC<IConversationsListProps> = ({
 	return (
 		<div className={styles.container}>
 			<ul className={styles.list}>
-				{conversationData.map(conversation => {
+				{conversations.map(conversation => {
 					const userId = conversation.recipientId !== loggedUserId ? conversation.recipientId : conversation.senderId;
 
 					const user = users.filter(user => {

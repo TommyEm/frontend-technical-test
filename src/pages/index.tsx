@@ -1,10 +1,8 @@
-import { FC, useEffect, useState } from 'react'
+import { FC } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Logo from '../assets/lbc-logo.webp'
-import styles from '../styles/Home.module.css'
-import { User } from '../types/user'
-import { Conversation } from '../types/conversation'
+import Logo from '@/assets/lbc-logo.webp'
+import styles from '@/styles/Home.module.css'
 
 const Home: FC = () => {
   const year = new Date().getFullYear()
