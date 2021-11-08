@@ -22,17 +22,17 @@ it('should render an empty input', () => {
 	expect(input).toHaveValue('')
 })
 
-it('should render a filled input', () => {
-	render(filledComponent)
-	expect(screen.getByTestId('test-Input')).toHaveValue('Input')
-})
-
 it('should fill an input', () => {
 	render(emptyComponent)
 	const input = screen.getByTestId('test-Input')
 	const changeValue = 'Filled input'
-	fireEvent.change(input, { target: { value: changeValue }})
+	fireEvent.change(input, { target: { value: changeValue } })
 	expect(input).toHaveValue(changeValue)
+})
+
+it('should render a filled input', () => {
+	render(filledComponent)
+	expect(screen.getByTestId('test-Input')).toHaveValue('Input')
 })
 
 it('should match snapshot', () => {

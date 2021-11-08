@@ -14,13 +14,13 @@ export default {
 } as Meta
 
 const Template: Story<IInputProps> = args => {
-  	const [value, setValue] = useState(args.value ?? '')
+	const [value, setValue] = useState(args.value ?? '')
+
 	return (
 		<Input
 			{...args}
 			onChange={(e) => {
 				const val = e.target.value
-				args.onChange(val)
 				setValue(val)
 			}}
 			value={value}
@@ -29,8 +29,11 @@ const Template: Story<IInputProps> = args => {
 }
 
 export const Empty: Story<IInputProps> = Template.bind({})
-Empty.args = {
-	placeholder: 'Type something',
+Empty.args = {}
+
+export const WithPlaceholder: Story<IInputProps> = Template.bind({})
+WithPlaceholder.args = {
+	placeholder: 'Type something here',
 }
 
 export const Filled: Story<IInputProps> = Template.bind({})

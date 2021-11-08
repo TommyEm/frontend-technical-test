@@ -6,7 +6,7 @@ import {
   QueryClientProvider,
   Hydrate,
 } from 'react-query'
-import { ReactQueryDevtools } from 'react-query/devtools'
+// import { ReactQueryDevtools } from 'react-query/devtools'
 import '../styles/globals.css'
 
 // Default way to get a logged user
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <QueryClientProvider client={queryClient}>
       <Hydrate state={pageProps.dehydratedState}>
         <Component {...pageProps} />
-        <ReactQueryDevtools />
+        {/* <ReactQueryDevtools /> */}
       </Hydrate>
     </QueryClientProvider>
   )
