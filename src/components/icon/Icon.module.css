@@ -1,0 +1,12 @@
+.icon {
+	width: 32px;
+	height: 32px;
+}
+
+.icon.mod-primary path {
+	fill: var(--color-primary-s500);
+}
+
+.icon.mod-secondary path {
+	fill: var(--color-secondary-s500);
+}

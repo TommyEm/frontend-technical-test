@@ -20,7 +20,7 @@ const Template: Story<IInputProps> = args => {
 		<Input
 			{...args}
 			onChange={(e) => {
-				const val = e.target.value
+				const val = e.currentTarget.value
 				setValue(val)
 			}}
 			value={value}

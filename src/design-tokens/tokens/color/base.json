@@ -1,6 +1,17 @@
 {
 	"color": {
 		"primary": {
+			"s100": { "value": "#FFEDD0" },
+			"s200": { "value": "#FFD5A1" },
+			"s300": { "value": "#FFB872" },
+			"s400": { "value": "#FF9C4E" },
+			"s500": { "value": "#FF6E14" },
+			"s600": { "value": "#DB500E" },
+			"s700": { "value": "#B7370A" },
+			"s800": { "value": "#932306" },
+			"s900": { "value": "#7A1403" }
+		},
+		"secondary": {
 			"s100": { "value": "#D2F2FE" },
 			"s200": { "value": "#A6E1FE" },
 			"s300": { "value": "#7ACBFD" },

@@ -1,11 +1,11 @@
-import { FC } from 'react'
+import React, { FC } from 'react'
 import styles from './Input.module.css'
 
 
 export interface IInputProps {
 	value?: string
 	placeholder?: string
-	onChange: (e: any) => void
+	onChange: (e: React.FormEvent<HTMLInputElement>) => void
 }
 
 export const Input: FC<IInputProps> = ({

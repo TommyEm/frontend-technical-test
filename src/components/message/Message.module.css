@@ -23,7 +23,7 @@
 
 .container.fromOther {
 	float: left;
-	background-color: var(--color-primary-s500);
+	background-color: var(--color-secondary-s500);
 	color: var(--color-neutral-s0);
 }
 
@@ -31,7 +31,7 @@
 	right: auto;
 	left: -20px;
 	border-top: 8px solid transparent;
-	border-right: 10px solid var(--color-primary-s500);
+	border-right: 10px solid var(--color-secondary-s500);
 	border-bottom: 8px solid transparent;
 	border-left: 10px solid transparent;
 }

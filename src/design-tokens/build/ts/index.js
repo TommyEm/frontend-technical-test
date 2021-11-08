@@ -1,17 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Nov 2021 11:24:50 GMT
+ * Generated on Mon, 08 Nov 2021 20:10:57 GMT
  */
 
 module.exports = {
   "color": {
     "primary": {
       "s100": {
-        "value": "#d2f2fe",
+        "value": "#ffedd0",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#D2F2FE"
+          "value": "#FFEDD0"
         },
         "name": "ColorPrimaryS100",
         "attributes": {
@@ -26,11 +26,11 @@ module.exports = {
         ]
       },
       "s200": {
-        "value": "#a6e1fe",
+        "value": "#ffd5a1",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#A6E1FE"
+          "value": "#FFD5A1"
         },
         "name": "ColorPrimaryS200",
         "attributes": {
@@ -45,11 +45,11 @@ module.exports = {
         ]
       },
       "s300": {
-        "value": "#7acbfd",
+        "value": "#ffb872",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#7ACBFD"
+          "value": "#FFB872"
         },
         "name": "ColorPrimaryS300",
         "attributes": {
@@ -64,11 +64,11 @@ module.exports = {
         ]
       },
       "s400": {
-        "value": "#58b5fb",
+        "value": "#ff9c4e",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#58B5FB"
+          "value": "#FF9C4E"
         },
         "name": "ColorPrimaryS400",
         "attributes": {
@@ -83,11 +83,11 @@ module.exports = {
         ]
       },
       "s500": {
-        "value": "#2292f9",
+        "value": "#ff6e14",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#2292F9"
+          "value": "#FF6E14"
         },
         "name": "ColorPrimaryS500",
         "attributes": {
@@ -102,11 +102,11 @@ module.exports = {
         ]
       },
       "s600": {
-        "value": "#1871d6",
+        "value": "#db500e",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#1871D6"
+          "value": "#DB500E"
         },
         "name": "ColorPrimaryS600",
         "attributes": {
@@ -121,11 +121,11 @@ module.exports = {
         ]
       },
       "s700": {
-        "value": "#1154b3",
+        "value": "#b7370a",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#1154B3"
+          "value": "#B7370A"
         },
         "name": "ColorPrimaryS700",
         "attributes": {
@@ -140,11 +140,11 @@ module.exports = {
         ]
       },
       "s800": {
-        "value": "#0a3b90",
+        "value": "#932306",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#0A3B90"
+          "value": "#932306"
         },
         "name": "ColorPrimaryS800",
         "attributes": {
@@ -159,11 +159,11 @@ module.exports = {
         ]
       },
       "s900": {
-        "value": "#062977",
+        "value": "#7a1403",
         "filePath": "tokens/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#062977"
+          "value": "#7A1403"
         },
         "name": "ColorPrimaryS900",
         "attributes": {
@@ -174,6 +174,179 @@ module.exports = {
         "path": [
           "color",
           "primary",
+          "s900"
+        ]
+      }
+    },
+    "secondary": {
+      "s100": {
+        "value": "#d2f2fe",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#D2F2FE"
+        },
+        "name": "ColorSecondaryS100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s100"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s100"
+        ]
+      },
+      "s200": {
+        "value": "#a6e1fe",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#A6E1FE"
+        },
+        "name": "ColorSecondaryS200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s200"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s200"
+        ]
+      },
+      "s300": {
+        "value": "#7acbfd",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#7ACBFD"
+        },
+        "name": "ColorSecondaryS300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s300"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s300"
+        ]
+      },
+      "s400": {
+        "value": "#58b5fb",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#58B5FB"
+        },
+        "name": "ColorSecondaryS400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s400"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s400"
+        ]
+      },
+      "s500": {
+        "value": "#2292f9",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#2292F9"
+        },
+        "name": "ColorSecondaryS500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s500"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s500"
+        ]
+      },
+      "s600": {
+        "value": "#1871d6",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#1871D6"
+        },
+        "name": "ColorSecondaryS600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s600"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s600"
+        ]
+      },
+      "s700": {
+        "value": "#1154b3",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#1154B3"
+        },
+        "name": "ColorSecondaryS700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s700"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s700"
+        ]
+      },
+      "s800": {
+        "value": "#0a3b90",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#0A3B90"
+        },
+        "name": "ColorSecondaryS800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s800"
+        },
+        "path": [
+          "color",
+          "secondary",
+          "s800"
+        ]
+      },
+      "s900": {
+        "value": "#062977",
+        "filePath": "tokens/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#062977"
+        },
+        "name": "ColorSecondaryS900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary",
+          "item": "s900"
+        },
+        "path": [
+          "color",
+          "secondary",
           "s900"
         ]
       }
