@@ -9,7 +9,7 @@ export default {
 
 const Template: Story<IAvatar> = args => <Avatar {...args} />
 
-export const Default = Template.bind({})
+export const Default: Story<IAvatar> = Template.bind({})
 Default.args = {
-	conversationId: 1,
+	userName: 'John',
 }

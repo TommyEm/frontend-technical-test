@@ -6,7 +6,7 @@ import { useMessages } from '@/hooks/useMessages'
 import { useUsers } from '@/hooks/useUsers'
 import { Title } from '../title/Title'
 import { Message } from '@/components/message/Message'
-import { PostMessageForm } from '../form/post-message/PostMessageForm'
+import { PostMessageForm } from '@/components/form/post-message/PostMessageForm'
 import styles from './Conversation.module.css'
 
 

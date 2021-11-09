@@ -1,6 +1,8 @@
 import * as nextImage from 'next/image'
 import { QueryClient, QueryClientProvider } from 'react-query'
 
+import { LoggedUserIdContext } from '@/store/context'
+
 
 Object.defineProperty(nextImage, 'default', {
   configurable: true,
@@ -12,7 +14,9 @@ const queryClient = new QueryClient()
 export const decorators = [
   Story => (
     <QueryClientProvider client={queryClient}>
-      <Story />
+      <LoggedUserIdContext.Provider value={1}>
+        <Story />
+      </LoggedUserIdContext.Provider>
     </QueryClientProvider>
   )
 ]

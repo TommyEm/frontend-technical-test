@@ -10,7 +10,10 @@ export interface IAvatar {
 
 export const Avatar: FC<IAvatar> = ({ userName }) => {
 	return (
-		<div className={styles.container}>
+		<div
+			className={styles.container}
+			data-testid='test-Avatar'
+		>
 			<Image
 				className={styles.image}
 				src={`https://eu.ui-avatars.com/api/?name=${userName}`}
