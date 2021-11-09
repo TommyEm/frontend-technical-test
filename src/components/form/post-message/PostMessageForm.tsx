@@ -1,9 +1,14 @@
-import { FC, useCallback, useState } from 'react'
+import {
+	FC,
+	useCallback,
+	useContext,
+	useState,
+} from 'react'
 
 import { Input } from '../input/Input'
 import { IconButton } from '@/components/button/icon/IconButton'
 import { usePostMessage } from '@/hooks/useMessages'
-import { loggedUserId } from '@/pages/_app'
+import { LoggedUserIdContext } from '@/store/context'
 import styles from './PostMessageForm.module.css'
 
 
@@ -14,6 +19,7 @@ export interface IPostMessageFormProps {
 export const PostMessageForm: FC<IPostMessageFormProps> = ({
 	conversationId,
 }) => {
+	const loggedUserId = useContext(LoggedUserIdContext)
 	const [newMessage, setNewMessage] = useState<string>('')
 	const { mutate: postMessage } = usePostMessage(conversationId)
 

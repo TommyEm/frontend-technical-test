@@ -1,6 +1,6 @@
-import { FC } from 'react'
+import { FC, useContext } from 'react'
 
-import { loggedUserId } from '@/pages/_app'
+import { LoggedUserIdContext } from '@/store/context'
 import { useConversations } from '@/hooks/useConversations'
 import { useMessages } from '@/hooks/useMessages'
 import { useUsers } from '@/hooks/useUsers'
@@ -17,6 +17,7 @@ export interface IConversation {
 export const Conversation: FC<IConversation> = ({
 	conversationId,
 }) => {
+	const loggedUserId = useContext(LoggedUserIdContext)
 
 	const {
 		data: users,

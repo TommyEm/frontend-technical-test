@@ -35,9 +35,7 @@ export const usePostMessage = (conversationId: number) => {
 			)
 		},
 		{
-			onSuccess: (res) => {
-				console.log(res);
-
+			onSuccess: () => {
 				queryClient.invalidateQueries('messages')
 			},
 			onError: err => {

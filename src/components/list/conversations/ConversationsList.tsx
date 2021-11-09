@@ -1,18 +1,16 @@
-import { FC } from 'react'
+import { FC, useContext } from 'react'
 
-import { IConversation } from '@/types/conversation'
-import { loggedUserId } from '@/pages/_app'
+import { LoggedUserIdContext } from '@/store/context'
 import { ConversationsListItem } from './ConversationsListItem'
 import styles from './ConversationsList.module.css'
 import { useUsers } from '@/hooks/useUsers'
 import { useConversations } from '@/hooks/useConversations'
 
 
-export interface IConversationsListProps {
-}
+export interface IConversationsListProps {}
 
-export const ConversationsList: FC<IConversationsListProps> = ({
-}) => {
+export const ConversationsList: FC<IConversationsListProps> = ({}) => {
+	const loggedUserId = useContext(LoggedUserIdContext)
 	const {
 		data: users,
 		error,
