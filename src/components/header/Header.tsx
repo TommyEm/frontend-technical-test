@@ -11,10 +11,10 @@ export interface IHeader {
 export const Header: FC<IHeader> = ({ children }) => {
 	return (
 		<header className={styles.container}>
-			<div className='Header-logo'>
+			{children}
+			<div className={styles.logo}>
 				<Image src={Logo} alt="Leboncoin's logo" width={150} height={47} />
 			</div>
-			{children}
 		</header>
 	)
 }

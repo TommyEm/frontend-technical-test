@@ -14,10 +14,7 @@ export const useMessages = (conversationId: number) => {
 	return useQuery<IMessage[], Error>(
 		['messages', conversationId],
 		() => axios.get(`${API_MESSAGES}/${conversationId}`)
-			.then(res => {
-				console.log('GET MESSAGES', res.data);
-				return res.data
-			}),
+			.then(res => res.data),
 	)
 }
 
@@ -46,8 +43,6 @@ export const usePostMessage = (conversationId: number) => {
 			onError: err => {
 				console.log(err)
 			},
-			// onSettled: () => {
-			// }
 		}
 	)
 }

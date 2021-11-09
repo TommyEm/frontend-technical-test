@@ -1,6 +1,8 @@
 import { Story, Meta } from '@storybook/react'
 
 import { Header, IHeader } from './Header'
+import { BackIcon } from '@/components/icon/Icon.stories'
+import { IIconProps } from '../icon/Icon'
 
 export default {
 	title: 'Components/Header',
@@ -10,6 +12,8 @@ export default {
 const Template: Story<IHeader> = args => <Header {...args} />
 
 export const Default = Template.bind({})
-Default.args = {
-	children: 'Header',
+
+export const WithChildren = Template.bind({})
+WithChildren.args = {
+	children: <BackIcon {...BackIcon.args as IIconProps} />,
 }

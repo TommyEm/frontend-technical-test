@@ -1,4 +1,12 @@
 .container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
 	padding: var(--size-space-s4);
+	background-color: var(--color-neutral-s0);
 	border-bottom: 1px solid var(--color-neutral-s100);
+}
+
+* + .logo {
+	text-align: center;
 }

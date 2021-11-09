@@ -1,25 +1,33 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 
 import styles from './Icon.module.css'
+import * as svgIcons from './SvgIcons'
 
+
+const icons = {
+	back: svgIcons.BackIcon,
+	send: svgIcons.SendIcon,
+}
 
 export interface IIconProps {
-	type?: 'primary' | 'secondary'
+	icon: 'back' | 'send'
+	type?: 'primary' | 'secondary' | 'tertiary'
 }
 
 export const Icon: FC<IIconProps> = ({
+	icon,
 	type = 'primary',
 }) => {
-	const typeClass = type === 'primary' ? 'mod-primary' : 'mod-secondary'
+	const typeClass = `mod-${type}`
+
+	const svgIcon = icons[icon]
 
 	return (
-		<svg
-			className={`${styles.icon} ${styles[typeClass]}`}
-			viewBox='0 0 512 512'
-			xmlns='http://www.w3.org/2000/svg'
+		<span
+			className={`${styles.container} ${styles[typeClass]}`}
 			data-testid='test-Icon'
 		>
-			<path d='M16,464,496,256,16,48V208l320,48L16,304Z' />
-		</svg>
+			{svgIcon()}
+		</span>
 	)
 }

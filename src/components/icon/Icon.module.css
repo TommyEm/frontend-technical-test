@@ -1,12 +1,23 @@
-.icon {
-	width: 32px;
-	height: 32px;
+.container {
+	display: inline-block;
 }
 
-.icon.mod-primary path {
+.container.mod-primary path,
+.container.mod-primary polygon {
 	fill: var(--color-primary-s500);
 }
 
-.icon.mod-secondary path {
+.container.mod-secondary path,
+.container.mod-secondary polygon {
 	fill: var(--color-secondary-s500);
+}
+
+.container.mod-tertiary path,
+.container.mod-tertiary polygon {
+	fill: var(--color-neutral-s600);
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
 }

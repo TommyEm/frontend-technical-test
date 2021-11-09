@@ -5,3 +5,15 @@
 .main {
 	padding: var(--size-space-s4);
 }
+
+.backLink a {
+	display: inline-block;
+	padding: var(--size-space-s2);
+	line-height: 1;
+}
+
+.backLink a > *,
+.backLink svg {
+	width: var(--size-font-s4);
+	height: var(--size-font-s4);
+}

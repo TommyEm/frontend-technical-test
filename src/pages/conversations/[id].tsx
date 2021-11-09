@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from '@/styles/App.module.css'
 import { Header } from '@/components/header/Header'
 import { Conversation } from '@/components/conversation/Conversation'
+import { Icon } from '@/components/icon/Icon'
 
 
 interface IConversationPageProps {
@@ -13,10 +14,18 @@ const ConversationPage: FC<IConversationPageProps> = ({ id }) => {
 	return (
 		<div>
 			<div className={styles.header}>
-				<Header />
-				<Link href='/app'>
-					<a>Back</a>
-				</Link>
+				<Header>
+					<div className={styles.backLink}>
+						<Link href='/app'>
+							<a>
+								<Icon
+									icon='back'
+									type='tertiary'
+								/>
+							</a>
+						</Link>
+					</div>
+				</Header>
 			</div>
 			<main className={styles.main}>
 				<Conversation

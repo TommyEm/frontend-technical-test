@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 
 import { Icon } from '@/components/icon/Icon'
 import styles from './IconButton.module.css'
@@ -22,7 +22,7 @@ export const IconButton: FC<IIconButtonProps> = ({
 				{label}
 			</div>
 			<div className={styles.icon}>
-				<Icon />
+				<Icon icon='send' />
 			</div>
 		</button>
 	)
