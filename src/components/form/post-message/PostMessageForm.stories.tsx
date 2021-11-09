@@ -12,4 +12,5 @@ const Template: Story<IPostMessageFormProps> = args => <PostMessageForm {...args
 
 export const Default: Story<IPostMessageFormProps> = Template.bind({})
 Default.args = {
+	conversationId: 0,
 }

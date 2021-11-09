@@ -1,8 +1,8 @@
 import axios from 'axios'
 import { useQuery } from 'react-query'
 
-import { IConversation } from '../types/conversation'
-import { API_CONVERSATIONS } from '../constants/api'
+import { IConversation } from '@/types/conversation'
+import { API_CONVERSATIONS } from '@/constants/api'
 
 
 export const useConversations = (userId: number) => {

@@ -1,7 +1,8 @@
 import * as nextImage from 'next/image'
 import { QueryClient, QueryClientProvider } from 'react-query'
 
-import { LoggedUserIdContext } from '@/store/context'
+import { LoggedUserIdContext } from '../src/store/context'
+import '../src/styles/globals.css'
 
 
 Object.defineProperty(nextImage, 'default', {

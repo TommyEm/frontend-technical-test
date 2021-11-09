@@ -11,9 +11,9 @@ export default {
 
 const Template: Story<IHeader> = args => <Header {...args} />
 
-export const Default = Template.bind({})
+export const Default: Story<IHeader> = Template.bind({})
 
-export const WithChildren = Template.bind({})
+export const WithChildren: Story<IHeader> = Template.bind({})
 WithChildren.args = {
 	children: <BackIcon {...BackIcon.args as IIconProps} />,
 }

@@ -5,8 +5,8 @@ import {
 	useQueryClient,
 } from 'react-query'
 
-import { IMessage } from '../types/message'
-import { API_MESSAGES } from '../constants/api'
+import { IMessage } from '@/types/message'
+import { API_MESSAGES } from '@/constants/api'
 import dayjs from 'dayjs'
 
 

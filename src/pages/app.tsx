@@ -1,5 +1,4 @@
 import { FC } from 'react'
-// import { useQueryClient } from 'react-query'
 
 import { Header } from '@/components/header/Header'
 import { Title } from '@/components/title/Title'

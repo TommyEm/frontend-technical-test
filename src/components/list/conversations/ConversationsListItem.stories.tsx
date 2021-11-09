@@ -1,15 +1,15 @@
 import { Story, Meta } from '@storybook/react'
 
-import { ConversationsListItem, IConversationsListItem } from './ConversationsListItem'
+import { ConversationsListItem, IConversationsListItemProps } from './ConversationsListItem'
 
 export default {
 	title: 'Components/List/Conversation List Item',
 	component: ConversationsListItem,
 } as Meta
 
-const Template: Story<IConversationsListItem> = args => <ConversationsListItem {...args} />
+const Template: Story<IConversationsListItemProps> = args => <ConversationsListItem {...args} />
 
-export const Default = Template.bind({})
+export const Default: Story<IConversationsListItemProps> = Template.bind({})
 Default.args = {
 	conversationData: {
 		"id": 1,

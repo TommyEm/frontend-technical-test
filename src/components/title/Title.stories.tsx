@@ -9,7 +9,7 @@ export default {
 
 const Template: Story<ITitle> = args => <Title {...args} />
 
-export const Default = Template.bind({})
+export const Default: Story<ITitle> = Template.bind({})
 Default.args = {
 	children: 'Title',
 }

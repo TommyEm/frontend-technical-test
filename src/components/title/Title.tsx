@@ -8,7 +8,10 @@ export interface ITitle {
 
 export const Title: FC<ITitle> = ({ children }) => {
 	return (
-		<h1 className={styles.title}>
+		<h1
+			className={styles.title}
+			data-testid='test-Title'
+		>
 			{children}
 		</h1>
 	)

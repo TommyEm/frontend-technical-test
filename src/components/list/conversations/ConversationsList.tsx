@@ -38,7 +38,10 @@ export const ConversationsList: FC<IConversationsListProps> = ({}) => {
 	}
 
 	return (
-		<div className={styles.container}>
+		<div
+			className={styles.container}
+			data-testid='test-ConversationsList'
+		>
 			<ul className={styles.list}>
 				{conversations.map(conversation => {
 					const userId = conversation.recipientId !== loggedUserId ? conversation.recipientId : conversation.senderId;

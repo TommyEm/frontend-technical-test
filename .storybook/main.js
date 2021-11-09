@@ -22,8 +22,6 @@ module.exports = {
       "@/store": path.resolve(__dirname, "..", "src", "store"),
       "@/styles": path.resolve(__dirname, "..", "src", "styles"),
     }
-
-    // Return the altered config
     return config;
   },
 }
