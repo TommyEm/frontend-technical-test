@@ -1,12 +1,19 @@
 .container {
-	display: flex;
-	align-items: center;
+	position: relative;
 }
 
 .input {
 	width: 100%;
 }
 
+.input input {
+	padding-right: 50px;
+}
+
 .button {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 	margin-left: var(--size-space-s4);
 }

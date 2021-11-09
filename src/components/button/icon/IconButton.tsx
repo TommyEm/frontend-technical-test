@@ -21,7 +21,9 @@ export const IconButton: FC<IIconButtonProps> = ({
 			<div className={styles.label}>
 				{label}
 			</div>
-			<Icon />
+			<div className={styles.icon}>
+				<Icon />
+			</div>
 		</button>
 	)
 }

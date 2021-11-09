@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react'
 import { PostMessageForm, IPostMessageFormProps } from './PostMessageForm'
 
 export default {
-	title: 'Components/Form/Post Message',
+	title: 'Components/Form/Post Message Form',
 	component: PostMessageForm,
 } as Meta
 
