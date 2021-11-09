@@ -16,7 +16,7 @@ export const ConversationsListItem: FC<IConversationsListItemProps> = ({
 	conversationData,
 	userName,
 }) => {
-	const lastMessageDate = dayjs(conversationData.lastMessageTimestamp).format('DD MMMMM YYYY hh:mm')
+	const lastMessageDate = dayjs(conversationData.lastMessageTimestamp).format('DD MMMM YYYY — hh:mm')
 
 	return (
 		<li className={styles.container}>

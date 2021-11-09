@@ -8,6 +8,11 @@ export const useUsers = () => {
 	return useQuery<IUser[], Error>(
 		'users',
 		() => axios.get(API_USERS)
-			.then(res => res.data)
+			.then(res => res.data),
+		{
+			onError: res => {
+				console.log(res)
+			},
+		}
 	)
 }

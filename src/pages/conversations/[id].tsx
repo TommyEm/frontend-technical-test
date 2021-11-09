@@ -1,9 +1,11 @@
 import { FC } from 'react'
 import Link from 'next/link'
-import styles from '@/styles/App.module.css'
+
 import { Header } from '@/components/header/Header'
 import { Conversation } from '@/components/conversation/Conversation'
 import { Icon } from '@/components/icon/Icon'
+
+import styles from '@/styles/Conversation.module.css'
 
 
 interface IConversationPageProps {
@@ -16,7 +18,7 @@ const ConversationPage: FC<IConversationPageProps> = ({ id }) => {
 			<div className={styles.header}>
 				<Header>
 					<div className={styles.backLink}>
-						<Link href='/app'>
+						<Link href='/'>
 							<a>
 								<Icon
 									icon='back'

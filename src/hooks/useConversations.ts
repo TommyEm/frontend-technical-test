@@ -10,5 +10,10 @@ export const useConversations = (userId: number) => {
 		'conversations',
 		() => axios.get(`${API_CONVERSATIONS}/${userId}`)
 			.then(res => res.data),
+		{
+			onError: res => {
+				console.log(res)
+			},
+		}
 	)
 }

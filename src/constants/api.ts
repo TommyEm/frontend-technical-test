@@ -1,3 +1,4 @@
-export const API_USERS = 'http://localhost:3005/users'
-export const API_CONVERSATIONS = 'http://localhost:3005/conversations'
-export const API_MESSAGES = 'http://localhost:3005/messages'
+export const API = 'http://localhost:3005'
+export const API_USERS = `${API}/users`
+export const API_CONVERSATIONS = `${API}/conversations`
+export const API_MESSAGES = `${API}/messages`

@@ -14,7 +14,7 @@ describe("App", () => {
   it("should render correctly App", () => {
     render(appComponent)
     expect(
-      screen.getByText(/Welcome/)
+      screen.getByText(/Conversations/)
     ).toBeInTheDocument()
   })
 })

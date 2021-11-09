@@ -15,6 +15,11 @@ export const useMessages = (conversationId: number) => {
 		['messages', conversationId],
 		() => axios.get(`${API_MESSAGES}/${conversationId}`)
 			.then(res => res.data),
+		{
+			onError: res => {
+				console.log(res)
+			},
+		}
 	)
 }
 

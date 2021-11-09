@@ -1,11 +1,7 @@
 import { useState } from 'react'
 import type { AppProps } from 'next/app'
 import { getLoggedUserId } from '../utils/getLoggedUserId'
-import {
-  QueryClient,
-  QueryClientProvider,
-  Hydrate,
-} from 'react-query'
+import { QueryClient, QueryClientProvider } from 'react-query'
 
 import { LoggedUserIdContext } from '@/store/context'
 import '../styles/globals.css'
@@ -20,9 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
       <LoggedUserIdContext.Provider value={loggedUserId}>
-        <Hydrate state={pageProps.dehydratedState}>
-          <Component {...pageProps} />
-        </Hydrate>
+        <Component {...pageProps} />
       </LoggedUserIdContext.Provider>
     </QueryClientProvider>
   )
